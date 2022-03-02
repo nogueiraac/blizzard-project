@@ -92,6 +92,6 @@ gulp.task(
     "alljs",
     "sass",
     "pluginjs",
-    "pluginscss"
+    "plugincss"
   )
 );
