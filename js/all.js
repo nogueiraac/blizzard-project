@@ -1,1 +1,1 @@
-"use strict";var slideHero=new Swiper(".main-slide",{effect:"fade"});
+"use strict";var slideThumb=new Swiper(".slide-thumb",{slidesPerView:5,direction:"vertical",spaceBetween:20,watchSlidesProgress:!0}),slideHero=new Swiper(".main-slide",{effect:"fade",thumbs:{swiper:slideThumb},autoplay:{delay:5e3,disableOnInteraction:!1}});

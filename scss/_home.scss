@@ -12,12 +12,13 @@
           background-size: cover;
         }
         &.slide-02 {
-          background: url("../assests/banner-slide-02.jpg") no-repeat center
+          background: url("../assets/banner-slide-02.jpg") no-repeat center
             center;
           background-size: cover;
         }
         &.slide-03 {
-          background: url("../img//banner-slide-03.jpg") no-repeat center center;
+          background: url("../assets/banner-slide-03.jpg") no-repeat center
+            center;
           background-size: cover;
           .left-content {
             max-width: 62.6rem;
@@ -129,6 +130,29 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+  .slide-thumb {
+    position: absolute;
+    top: 24.1rem;
+    left: 8%;
+    z-index: 3;
+    height: 32rem;
+    .swiper-wrapper {
+      .swiper-slide {
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        opacity: 0.4;
+        filter: grayscale(100);
+        &.disabled {
+          pointer-events: none;
+        }
+        &-thumb-active {
+          opacity: 1;
+          filter: grayscale(0);
         }
       }
     }
