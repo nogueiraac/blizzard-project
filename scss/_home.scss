@@ -1,0 +1,136 @@
+.s-hero {
+  position: relative;
+  .main-slide {
+    width: 100%;
+    height: 73.6rem;
+    .swiper-wrapper {
+      .swiper-slide {
+        padding-top: 20.7rem;
+        &.slide-01 {
+          background: url("../assets/banner-slide-01.jpg") no-repeat center
+            center;
+          background-size: cover;
+        }
+        &.slide-02 {
+          background: url("../assests/banner-slide-02.jpg") no-repeat center
+            center;
+          background-size: cover;
+        }
+        &.slide-03 {
+          background: url("../img//banner-slide-03.jpg") no-repeat center center;
+          background-size: cover;
+          .left-content {
+            max-width: 62.6rem;
+          }
+        }
+        .container {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+        }
+        .left-content {
+          margin-left: 20.3rem;
+          width: 100%;
+          max-width: 56.2rem;
+          h2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 6.4rem;
+            line-height: 110.2%;
+            margin-bottom: 1.6rem;
+          }
+          p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            letter-spacing: -0.005em;
+            margin-bottom: 3.2rem;
+          }
+          .btn {
+            padding: 0rem 3.8rem;
+            line-height: 5.2rem;
+          }
+        }
+        .right-content {
+          width: 100%;
+          max-width: 29.2rem;
+          margin-top: -3.4rem;
+          .logo {
+            width: 100%;
+            overflow: hidden;
+            max-width: 28rem;
+            height: 18rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 8.6rem;
+          }
+          .video {
+            width: 100%;
+            max-width: 28rem;
+            span {
+              display: block;
+              text-align: right;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.3rem;
+              line-height: 1.9rem;
+              text-transform: uppercase;
+              margin-bottom: 1.6rem;
+            }
+            .btn-video {
+              width: 100%;
+              height: 15.8rem;
+              border-radius: 0.4rem;
+              position: relative;
+              overflow: hidden;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .thumb {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: opacity 0.3s;
+                &:hover {
+                  &.default {
+                    opacity: 0;
+                  }
+                  &.hover {
+                    opacity: 1;
+                  }
+                }
+                &.default {
+                  opacity: 1;
+                }
+                &.hover {
+                  opacity: 0;
+                }
+              }
+              .icon {
+                position: relative;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 5.1rem;
+                height: 5.1rem;
+                border-radius: 50%;
+                background: linear-gradient(
+                  136.72deg,
+                  rgba(7, 7, 10, 0.86) 19.22%,
+                  rgba(15, 16, 22, 0.5) 76.59%
+                );
+                backdrop-filter: blur(3px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
