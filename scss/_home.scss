@@ -318,6 +318,9 @@
       font-size: 1.6rem;
       font-weight: 600;
       margin-bottom: 4.9rem;
+      .icon {
+        color: #ffffff;
+      }
     }
 
     .app {
@@ -352,11 +355,13 @@
       position: absolute;
       top: 0;
       left: 0;
+      animation: float 8s ease-in-out infinite;
     }
     .img-sm {
       position: absolute;
-      right: 5.3 rem;
+      right: 5.3rem;
       bottom: -2.8rem;
+      animation: float 6s ease-in-out infinite;
     }
   }
 }
